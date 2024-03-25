@@ -6,7 +6,9 @@ SocketPwn is a modular tool used for running automated tools through websockets.
 
 pip install -r requirements.txt
 
-python socketpwn.py -u ws://yourwebsocketurl --sqlmap --payload your_payload_or_payload_file
+python SocketPwn.py -u ws://yourwebsocketurl --sqlmap --payload your_payload_or_payload_file
+
+python SocketPwn.py -u "ws://localhost:8156/" --sqlmap --payload payload.json
 
 # Payloads 
 
@@ -23,3 +25,13 @@ should format it to this:
 Replace the injection point you want with %s
 
 {"employeeID":"%s"}
+
+# Example
+
+![image](https://github.com/Themaim/SocketPwn/assets/141221448/af18aa20-017b-443f-9305-975c3dd85890)
+
+
+# ToDo
+•	Make sql command more dynamic
+•	add more support for automated tools
+
