@@ -4,8 +4,21 @@ import threading
 import time
 from websocket_handler import WebSocketHandler
 
+print("""
+
+███████╗ ██████╗  ██████╗██╗  ██╗███████╗████████╗██████╗ ██╗    ██╗███╗   ██╗
+██╔════╝██╔═══██╗██╔════╝██║ ██╔╝██╔════╝╚══██╔══╝██╔══██╗██║    ██║████╗  ██║
+███████╗██║   ██║██║     █████╔╝ █████╗     ██║   ██████╔╝██║ █╗ ██║██╔██╗ ██║
+╚════██║██║   ██║██║     ██╔═██╗ ██╔══╝     ██║   ██╔═══╝ ██║███╗██║██║╚██╗██║
+███████║╚██████╔╝╚██████╗██║  ██╗███████╗   ██║   ██║     ╚███╔███╔╝██║ ╚████║
+╚══════╝ ╚═════╝  ╚═════╝╚═╝  ╚═╝╚══════╝   ╚═╝   ╚═╝      ╚══╝╚══╝ ╚═╝  ╚═══╝
+                                                                              
+v0.1
+MaiM
+""")
+
 def parse_arguments():
-    parser = argparse.ArgumentParser(description='SocketPwn: A dynamic WebSocket interaction tool with SQLMap integration.')
+    parser = argparse.ArgumentParser(description='Tool for automating websocket attacks')
     parser.add_argument('-u', '--url', required=True, help='WebSocket URL to connect to.')
     parser.add_argument('--sqlmap', action='store_true', help='Flag to run SQLMap on the specified URL.')
     parser.add_argument('--payload', required=True, help='Payload template or file path with the payload template.')
