@@ -28,7 +28,8 @@ Replace the injection point you want with %s
 
 # Example
 
-![image](https://github.com/Themaim/SocketPwn/assets/141221448/af18aa20-017b-443f-9305-975c3dd85890)
+![Recording](https://github.com/Themaim/SocketPwn/assets/141221448/99d3759a-0352-43f4-9fe6-2c56571b9d96)
+
 
 
 # ToDo
