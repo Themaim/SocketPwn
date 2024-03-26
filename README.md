@@ -8,7 +8,7 @@ pip install -r requirements.txt
 
 python SocketPwn.py -u ws://yourwebsocketurl --sqlmap --payload your_payload_or_payload_file
 
-python SocketPwn.py -u "ws://localhost:8156/" --sqlmap --payload payload.json
+python SocketPwn.py -u "ws://localhost:8156/ws" --sqlmap --payload payload.json
 
 # Payloads 
 
